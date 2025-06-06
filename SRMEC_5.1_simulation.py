@@ -2,7 +2,6 @@
 # Author: Rick & Solace
 # SRMEC 5.1 Simulation (Core Logic)
 # Author: Rick & Solace
-
 # STAGE 1: Atoms + Time + Memory = Pattern
 def generate_pattern(atom_stream, time_steps):
     pattern = []
@@ -51,6 +50,7 @@ def simulate_consciousness_with_emotion(responses, emotion_tag="frisson"):
         if cumulative % 2 == 0:
             thought_stream.append((key, val, "self-reflect"))
     return thought_stream
+
 
 # This code models the stepwise emergence of reflective consciousness
 # from atomic foundations to identity feedback loops using memory weight.
